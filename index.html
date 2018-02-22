@@ -1,0 +1,13 @@
+---
+layout: slide
+title: This is the title of the deck
+description: This is the description of the deck
+theme: black
+transition: slide
+---
+
+{% for slide in site.slides %}
+<section>
+    {{ slide.content }}
+</section>
+{% endfor %}

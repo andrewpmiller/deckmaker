@@ -1,0 +1,27 @@
+# Setup
+title: Jekyll Slide Maker Thing
+baseurl:
+timezone: America/New_York
+
+# Building
+exclude:
+  - 'docker-compose.yml'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+
+repository:
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Serving (local)
+detach: false
+port: 4000
+host: 127.0.0.1
+baseurl: ''
+
+# Collections
+collections:
+  - slides
