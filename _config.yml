@@ -1,5 +1,5 @@
 # Setup
-title: Jekyll Slide Maker Thing
+title: Jekyll Slide Maker
 baseurl:
 timezone: America/New_York
 
@@ -17,11 +17,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Serving (local)
-detach: false
-port: 4000
-host: 127.0.0.1
-baseurl: ''
-
-# Collections
-collections:
-  - slides
+# detach: false
+# port: 4000
+# host: 127.0.0.1
+# baseurl: ''
