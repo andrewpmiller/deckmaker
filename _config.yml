@@ -1,6 +1,6 @@
 # Setup
 title: Jekyll Slide Maker
-baseurl:
+baseurl: '/deckmaker'
 timezone: America/New_York
 
 # Building
