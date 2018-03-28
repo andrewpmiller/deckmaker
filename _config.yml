@@ -10,7 +10,7 @@ exclude:
   - 'Gemfile.lock'
   - 'README.md'
 
-repository:
+repository: andrewpmiller/deckmaker
 
 # Conversion
 markdown: kramdown
